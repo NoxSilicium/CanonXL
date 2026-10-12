@@ -1,0 +1,5 @@
+black==25.1.0
+clang-format==18.1.8
+ruff==0.11.13
+tree-sitter==0.23.2
+tree-sitter-cpp==0.23.4

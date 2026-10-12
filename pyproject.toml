@@ -1,0 +1,13 @@
+[tool.black]
+line-length = 100
+target-version = ['py313']
+include = '\.py$'
+extend-exclude = 'local|archives|node_modules|vendor|build|\.venv'
+
+[tool.ruff]
+line-length = 100
+target-version = 'py313'
+extend-exclude = ['local', 'archives', 'node_modules', 'vendor', 'build', '.venv']
+
+[tool.ruff.lint]
+select = ['E4', 'E7', 'E9', 'F', 'I']

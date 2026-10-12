@@ -1,0 +1,5 @@
+build/
+vendor/
+canon_xl_control/code/*.jar
+canon_xl_control/application*/
+__pycache__/

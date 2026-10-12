@@ -1,0 +1,175 @@
+CanonXL Noncommercial License
+Version 1.0
+License identifier: LicenseRef-CanonXL-NC-1.0
+
+Copyright (c) 2026 Sebastien Marchand (NoxSilicium)
+Commercial licensing contact: https://github.com/NoxSilicium/CanonXL/issues
+
+1. Scope and Definitions
+
+This License applies to the original CanonXL controller and control-panel
+software, tests, development tools, documentation, illustrations and
+3D-printable models distributed with this License, unless a file carries
+a different license notice. "Covered Work"
+means that material and modifications to it. "Licensor" means each copyright
+holder who offers their contribution under this License. "You" means the
+individual or organization exercising the permissions granted here.
+
+Each Licensor grants only rights they control. Third-party software and other
+third-party material remain subject to their own licenses. This License does
+not grant rights in Canon firmware, patents or trademarks, or ownership of
+protocol facts or independently written implementations. It does not make
+independent programs that merely communicate with CanonXL Covered Works.
+
+2. Noncommercial Grant
+
+Subject to this License, each Licensor grants You a nonexclusive, worldwide,
+royalty-free copyright license to inspect, reproduce, compile, execute,
+modify and redistribute their Covered Work for the Permitted Uses defined
+below, for the duration of the applicable copyright. Except as provided in
+Section 8, this grant cannot be withdrawn from a compliant recipient.
+
+Permitted Uses are:
+
+    a. Personal, hobby and other noncommercial experimentation.
+
+    b. Noncommercial teaching, learning, demonstrations and scientific
+       research, including work within schools, universities, research
+       institutions and similar organizations. Institutional funding,
+       grants, tuition and salaries do not, by themselves, make such work
+       commercial. This permission does not include work directed at
+       developing, testing, manufacturing or selling a commercial product
+       or service, or research performed as a commercial service for a
+       customer.
+
+    c. Noncommercial modification and redistribution of the Covered Work
+       for the purposes above, subject to Section 4.
+
+Commercial Use requires separate written permission under Section 3.
+Being a nonprofit organization, calling a project scientific or educational,
+or making no profit on a particular transaction does not by itself exempt
+a Commercial Use.
+
+3. Commercial Use and Separate Permission
+
+Commercial Use includes using, reproducing, modifying or distributing the
+Covered Work:
+
+    a. In a product offered for sale, lease or another commercial supply,
+       including a controller, firmware package or other integrated product.
+
+    b. To provide a paid service, including imaging, equipment operation,
+       hosting, installation, technical support or standalone commercial
+       training. Teaching permitted by Section 2.b remains permitted.
+
+    c. In the development, testing, manufacture, marketing or delivery of
+       a commercial product or service, including internal commercial R&D
+       and use in the operation of a commercial activity.
+
+A charge limited to the actual cost of copying or transmitting a permitted
+redistribution of software or documentation, without profit or remuneration
+for labor, does not alone make that redistribution commercial. This exception
+does not authorize selling assembled hardware containing the Covered Work.
+
+Voluntary donations or grants without a required payment, paid access,
+paid feature or other commercial consideration do not alone make an
+otherwise Permitted Use commercial.
+
+Commercial permission must be granted in writing by the relevant rights
+holder or their authorized representative. An agreement may define the
+covered versions, recipient, products or services, duration, territory and
+financial terms. Access to this repository, discussion of a project or
+submission of a contribution is not commercial permission. For CanonXL
+commercial licensing requests, open an issue at
+https://github.com/NoxSilicium/CanonXL/issues/new.
+
+4. Redistribution and Modifications
+
+For every permitted redistribution of a Covered Work, You must:
+
+    a. Provide a copy of this License and preserve applicable copyright,
+       attribution and license notices.
+
+    b. Identify modified versions and describe the material changes,
+       without implying approval by the original author or by Canon.
+
+    c. Distribute the covered original material and Your modifications
+       under this License, without adding terms that prevent recipients
+       from exercising its permissions for that material. Every recipient
+       receives the applicable grant directly from the relevant Licensors.
+
+    d. When distributing compiled software, also provide recipients with
+       the corresponding source for the Covered Work included in it,
+       including Your modifications and the build instructions needed to
+       reproduce that covered software. Source must be in the preferred
+       form for making changes, not merely an obfuscated representation.
+       Include it with the distribution or make it available to recipients
+       for download at no additional charge when distributing the binary.
+
+Private modifications need not be published if You do not redistribute them.
+This License does not require disclosure of independent software solely
+because it exchanges commands or data with CanonXL. It grants no copyright
+claim over independently created images, measurements or other output.
+Use of the Covered Work to supply commercial output remains Commercial Use.
+
+5. Third-Party Rights and Legal Exceptions
+
+Do not apply this License's noncommercial restriction to third-party
+components that have their own licenses. Preserve their notices and meet
+their applicable source, modification, redistribution and relinking
+requirements. Distribute a combination only when the applicable licenses
+permit it; this License does not override an incompatible upstream license.
+
+Nothing here limits rights or exceptions that applicable law grants You
+independently of this License, including mandatory rights relating to
+observation, study, interoperability or backup copies. No acceptance of this
+License is required merely to exercise such independently available rights.
+
+6. Names, Endorsement and Hardware
+
+This License does not grant permission to use a Licensor's name or a Canon
+trademark as branding or to imply affiliation, certification or endorsement.
+Accurate attribution and lawful identification of compatible equipment remain
+allowed. CanonXL is an independent project, not approved or supported by Canon.
+
+Permission to use software is not electrical, mechanical or optical safety
+certification and does not establish compatibility with every lens or board.
+You are responsible for verifying the equipment and wiring before use.
+
+7. Warranty and Liability
+
+To the extent permitted by applicable law, the Covered Work is supplied
+"as is", without warranties of merchantability, fitness for a particular
+purpose, accuracy, compatibility or noninfringement. No maintenance,
+technical support or particular operating result is promised by this License.
+
+To the extent permitted by applicable law, Licensors are not liable for
+damage arising from use or inability to use the Covered Work, including
+equipment damage, loss of data or loss of revenue. These provisions do not
+exclude or restrict liability or remedies that cannot lawfully be excluded
+or restricted, including mandatory consumer protections.
+
+8. Termination and Reinstatement
+
+Your permissions under this License terminate automatically if You violate
+its conditions. They are automatically reinstated if this is the first
+notice of a violation You have received from the relevant Licensor and You
+remedy that violation within 30 days of receiving the notice. Otherwise,
+reinstatement requires that Licensor's written agreement.
+
+Termination does not terminate the grants of recipients who received the
+Covered Work from You and remain compliant. Accrued claims and the scope,
+third-party-rights, warranty, liability and applicable-law provisions survive
+termination. A later license version or removal of repository history does
+not withdraw rights already validly granted to compliant recipients.
+
+9. Applicable Law and License Text
+
+This License is governed by French law, subject to mandatory provisions of
+otherwise applicable law. Jurisdiction is determined by the applicable
+legal rules, not by an exclusive forum imposed here. If a provision is
+unenforceable, the remaining provisions apply to the extent legally possible.
+
+The English text of this License is authoritative. Summaries and translations
+are informational and do not replace it. This is a source-available
+noncommercial license, not the GNU GPL or an OSI open-source license.

@@ -1,0 +1,2 @@
+# Keep generated meshes byte-identical, without line-ending conversion or text diffs.
+hardware/stl/*.stl binary

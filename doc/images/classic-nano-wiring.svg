@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 730" xml:lang="en"
+    role="img" aria-labelledby="wiringTitle wiringDescription">
+    <title id="wiringTitle" data-i18n="wiringTitle">Classic Nano to Canon XL wiring</title>
+    <desc id="wiringDescription" data-i18n="wiringDescription">D10 drives active-low enable, D11 sends MOSI, D12 receives MISO and D13 drives clock. Nano ground, lens ground and separate supply return are common. The supply powers the lens directly, never through a GPIO. The lens 4.5 volt output is not connected. This diagram does not show connector contact positions.</desc>
+    <defs>
+        <marker id="wiringArrow" viewBox="0 0 10 10" refX="9" refY="5"
+            markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <path d="M 0 0 L 10 5 L 0 10 Z" fill="context-stroke"/>
+        </marker>
+    </defs>
+    <style>
+        text
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 17px;
+            fill: #252a30;
+        }
+
+        .heading
+        {
+            font-size: 26px;
+            font-weight: 700;
+        }
+
+        .name
+        {
+            font-size: 21px;
+            font-weight: 700;
+        }
+
+        .pin
+        {
+            font-family: Consolas, monospace;
+            font-weight: 700;
+        }
+
+        .detail
+        {
+            font-size: 15px;
+            fill: #505862;
+        }
+
+        .wire
+        {
+            fill: none;
+            stroke-width: 3;
+        }
+    </style>
+    <rect width="1000" height="730" fill="#ffffff"/>
+    <text id="wiringHeading" data-i18n="wiringHeading" class="heading" x="40" y="47">Classic Nano / SPI wiring</text>
+    <text id="wiringScope" data-i18n="wiringScope" class="detail" x="40" y="77">Functional connections only. Contact positions are not represented.</text>
+
+    <rect x="40" y="112" width="220" height="365" rx="6" fill="#eaf5f3" stroke="#338473"/>
+    <text id="wiringController" data-i18n="wiringController" class="name" x="62" y="148">Arduino Nano</text>
+    <text id="wiringControllerDetail" data-i18n="wiringControllerDetail" class="detail" x="62" y="174">Classic ATmega328P</text>
+
+    <rect x="720" y="112" width="240" height="445" rx="6" fill="#f4f0f7" stroke="#856593"/>
+    <text id="wiringLens" data-i18n="wiringLens" class="name" x="742" y="148">Canon XL lens</text>
+    <text id="wiringLensDetail" data-i18n="wiringLensDetail" class="detail" x="742" y="174">Test-bench harness</text>
+
+    <g class="pin" text-anchor="end">
+        <text id="wiringD10" data-i18n="wiringD10" x="238" y="233">D10</text>
+        <text id="wiringD11" data-i18n="wiringD11" x="238" y="288">D11</text>
+        <text id="wiringD12" data-i18n="wiringD12" x="238" y="343">D12</text>
+        <text id="wiringD13" data-i18n="wiringD13" x="238" y="398">D13</text>
+        <text id="wiringNanoGround" data-i18n="wiringNanoGround" x="238" y="453">GND</text>
+    </g>
+    <g>
+        <text id="wiringEnable" data-i18n="wiringEnable" x="742" y="233">Enable (active low)</text>
+        <text id="wiringMosi" data-i18n="wiringMosi" x="742" y="288">MOSI input</text>
+        <text id="wiringMiso" data-i18n="wiringMiso" x="742" y="343">MISO output</text>
+        <text id="wiringClock" data-i18n="wiringClock" x="742" y="398">Clock input</text>
+        <text id="wiringLensGround" data-i18n="wiringLensGround" x="742" y="453">Ground</text>
+        <text id="wiringLensPower" data-i18n="wiringLensPower" x="742" y="508">Power input</text>
+        <text id="wiringUnusedOutput" data-i18n="wiringUnusedOutput" class="detail" x="742" y="537">4.5 V out: unconnected</text>
+    </g>
+    <g text-anchor="middle">
+        <path class="wire" d="M 260 226 H 709" stroke="#bb6417" marker-end="url(#wiringArrow)"/>
+        <text id="wiringOrange" data-i18n="wiringOrange" x="490" y="215">Orange / enable</text>
+        <path class="wire" d="M 260 281 H 709" stroke="#278650" marker-end="url(#wiringArrow)"/>
+        <text id="wiringGreen" data-i18n="wiringGreen" x="490" y="270">Green / controller to lens</text>
+        <path class="wire" d="M 720 336 H 271" stroke="#287ac3" marker-end="url(#wiringArrow)"/>
+        <text id="wiringBlue" data-i18n="wiringBlue" x="490" y="325">Blue / lens to controller</text>
+        <path class="wire" d="M 260 391 H 709" stroke="#b38b00" marker-end="url(#wiringArrow)"/>
+        <text id="wiringYellow" data-i18n="wiringYellow" x="490" y="380">Yellow / clock</text>
+        <path class="wire" d="M 260 446 H 720 M 320 446 V 602 H 350" stroke="#9260a4"/>
+        <circle cx="320" cy="446" r="4" fill="#9260a4"/>
+        <text id="wiringViolet" data-i18n="wiringViolet" x="490" y="435">Violet / common ground</text>
+    </g>
+
+    <rect x="350" y="540" width="295" height="95" rx="6" fill="#fdf0f0" stroke="#b94d4d"/>
+    <text id="wiringSupply" data-i18n="wiringSupply" class="name" x="370" y="574">UBEC lens supply</text>
+    <text id="wiringSupplyReturn" data-i18n="wiringSupplyReturn" class="detail" x="370" y="607">Return / GND</text>
+    <text id="wiringSupplyPositive" data-i18n="wiringSupplyPositive" class="pin" x="600" y="607">+</text>
+    <path class="wire" d="M 645 602 H 675 V 501 H 709" stroke="#b94d4d" marker-end="url(#wiringArrow)"/>
+    <text id="wiringRed" data-i18n="wiringRed" x="390" y="510">Red / external lens power</text>
+
+    <text id="wiringHarnessWarning" data-i18n="wiringHarnessWarning" class="detail" x="40" y="675">Colors identify this harness, not a Canon wiring standard. Verify your own connections.</text>
+    <text id="wiringElectricalWarning" data-i18n="wiringElectricalWarning" class="detail" x="40" y="704">Check voltage levels and polarity. Never connect lens power to GPIO. Use only one SPI master.</text>
+</svg>

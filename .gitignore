@@ -1,0 +1,14 @@
+# Local caches and operating-system metadata.
+.DS_Store
+__pycache__/
+*.py[cod]
+node_modules/
+/vendor/
+/.venv/
+/.ruff_cache/
+/doc/generated/
+/build/
+/local/
+
+# Historical material is kept locally, outside the maintained repository.
+/archives/

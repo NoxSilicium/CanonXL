@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 480" xml:lang="en"
+    role="img" aria-labelledby="overviewTitle overviewDescription">
+    <title id="overviewTitle" data-i18n="overviewTitle">Canon XL controller overview</title>
+    <desc id="overviewDescription" data-i18n="overviewDescription">A computer exchanges USB commands and telemetry with a classic Arduino Nano. The Nano exchanges SPI data with a standalone Canon XL lens. A separate UBEC regulator powers the lens, with a common ground.</desc>
+    <defs>
+        <marker id="overviewArrow" viewBox="0 0 10 10" refX="9" refY="5"
+            markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <path d="M 0 0 L 10 5 L 0 10 Z" fill="context-stroke"/>
+        </marker>
+    </defs>
+    <style>
+        text
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 17px;
+            fill: #252a30;
+        }
+
+        .heading
+        {
+            font-size: 26px;
+            font-weight: 700;
+        }
+
+        .name
+        {
+            font-size: 21px;
+            font-weight: 700;
+        }
+
+        .detail
+        {
+            font-size: 15px;
+            fill: #505862;
+        }
+
+        .signal
+        {
+            fill: none;
+            stroke: #287b88;
+            stroke-width: 3;
+        }
+    </style>
+    <rect width="1000" height="480" fill="#ffffff"/>
+    <text id="overviewHeading" data-i18n="overviewHeading" class="heading" x="40" y="47">Canon XL / standalone control</text>
+    <g text-anchor="middle">
+        <rect x="40" y="115" width="230" height="110" rx="6" fill="#f3f5f7" stroke="#647080"/>
+        <text id="overviewComputer" data-i18n="overviewComputer" class="name" x="155" y="157">Computer</text>
+        <text id="overviewComputerDetail" data-i18n="overviewComputerDetail" class="detail" x="155" y="188">Commands / telemetry</text>
+
+        <rect x="380" y="115" width="240" height="110" rx="6" fill="#eaf5f3" stroke="#338473"/>
+        <text id="overviewController" data-i18n="overviewController" class="name" x="500" y="157">Arduino Nano</text>
+        <text id="overviewControllerDetail" data-i18n="overviewControllerDetail" class="detail" x="500" y="188">Classic ATmega328P</text>
+
+        <rect x="730" y="115" width="230" height="110" rx="6" fill="#f4f0f7" stroke="#856593"/>
+        <text id="overviewLens" data-i18n="overviewLens" class="name" x="845" y="157">Canon XL lens</text>
+        <text id="overviewLensDetail" data-i18n="overviewLensDetail" class="detail" x="845" y="188">20x test bench</text>
+
+        <path class="signal" d="M 280 170 H 370" marker-start="url(#overviewArrow)" marker-end="url(#overviewArrow)"/>
+        <text id="overviewUsb" data-i18n="overviewUsb" x="325" y="151">USB</text>
+        <path class="signal" d="M 630 170 H 720" marker-start="url(#overviewArrow)" marker-end="url(#overviewArrow)"/>
+        <text id="overviewSpi" data-i18n="overviewSpi" x="675" y="151">SPI</text>
+
+        <rect x="695" y="345" width="265" height="90" rx="6" fill="#fdf0f0" stroke="#b94d4d"/>
+        <text id="overviewSupply" data-i18n="overviewSupply" class="name" x="827" y="382">UBEC lens supply</text>
+        <text id="overviewSupplyDetail" data-i18n="overviewSupplyDetail" class="detail" x="827" y="410">Separate from Nano power</text>
+    </g>
+    <path d="M 895 345 V 235" fill="none" stroke="#b94d4d" stroke-width="3" marker-end="url(#overviewArrow)"/>
+    <text id="overviewPower" data-i18n="overviewPower" x="905" y="289" fill="#a13c3c">Power</text>
+    <path d="M 500 225 V 290 H 770 M 770 225 V 345" fill="none" stroke="#646c76"
+        stroke-width="2.5" stroke-dasharray="7 5"/>
+    <circle cx="770" cy="290" r="4" fill="#646c76"/>
+    <text id="overviewGround" data-i18n="overviewGround" x="530" y="279">Common ground</text>
+    <text id="overviewWarning" data-i18n="overviewWarning" class="detail" x="40" y="381">One SPI master at a time.</text>
+    <text id="overviewLevels" data-i18n="overviewLevels" class="detail" x="40" y="408">Check supply polarity and bus levels before connecting.</text>
+    <text id="overviewScope" data-i18n="overviewScope" class="detail" x="40" y="451">Functional overview, not a connector pinout.</text>
+</svg>

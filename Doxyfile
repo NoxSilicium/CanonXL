@@ -1,0 +1,17 @@
+PROJECT_NAME           = "Canon XL controller"
+PROJECT_BRIEF          = "Standalone lens control and bounded serial telemetry"
+OUTPUT_DIRECTORY       = doc/generated
+OUTPUT_LANGUAGE        = English
+INPUT                  = canon_xl_controller
+FILE_PATTERNS          = *.hpp *.cpp *.ino
+RECURSIVE              = YES
+EXTENSION_MAPPING      = ino=C++
+EXTRACT_ALL            = NO
+EXTRACT_PRIVATE        = YES
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+QUIET                  = YES
+WARN_IF_UNDOCUMENTED   = YES
+WARN_IF_DOC_ERROR      = YES
+WARN_AS_ERROR          = FAIL_ON_WARNINGS
+HAVE_DOT               = NO
